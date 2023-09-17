@@ -1,0 +1,175 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+    position: relative;
+  }
+
+  header{
+   background-color: #202329;
+   border-bottom: 2px solid #11b0c8;
+
+  }
+
+  .logo1 {
+    width: 100px;
+    height: auto; 
+    margin-right: 10px; 
+    display: inline-block; 
+  }
+
+.logo {
+    width: 25%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-top: 25px;
+    margin:14px auto;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 42%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #btn-Pesquisar {
+    padding: 10px 20px;
+    background-color: #11b0c8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #currentPageNumber{
+    background-color: #202329;
+    font-size: large;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #11b0c8;
+   
+  }
+
+  button {
+    background-color: #202329;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #11b0c8;
+  }
+  
+  .character-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .character-card {
+    background-color: #202329;
+    border: 2px solid #11b0c8;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-card h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .character-card p {
+    margin: 2px 0;
+  }
+  
+  .character-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .character-card {
+    width: 200px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .character-card:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #202329;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+   
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 4px;
+  }
+  
+  .footer-direitos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #ccc;
+  }
+  .social-media a:hover {
+    color: #11b0c8;
+  }
+
+#themeButton {
+  position: absolute;
+  left: 90%; 
+  top: 20px; 
+  z-index: 1; 
+}
+
+.black-theme {
+  background-image: url(/src/img/wallpapersden.com_rick-and-morty-space_3840x2400.jpg);
+  color: #faf8f8;
+
+}
+
+.white-theme {
+  background-image: url(/src/img/estrelas.webp);
+
+  color: #faf8f8;
+}
+
+#themeButton i {
+  vertical-align: middle;
+}
+
