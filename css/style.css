@@ -158,13 +158,13 @@
 }
 
 .black-theme {
-  background-image: url(/src/img/wallpapersden.com_rick-and-morty-space_3840x2400.jpg);
+  background-image: url(../src/img/wallpapersden.com_rick-and-morty-space_3840x2400.jpg);
   color: #faf8f8;
 
 }
 
 .white-theme {
-  background-image: url(/src/img/estrelas.webp);
+  background-image: url(../src/img/estrelas.webp);
 
   color: #faf8f8;
 }
