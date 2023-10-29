@@ -22,7 +22,7 @@ pesquisar por nomes e alternar entre temas claro e escuro.
 1. Clone o repositório:
 
    ```bash
-   git clone https://seu-repositorio.git
+  https://github.com/felipesinn/projeto-frontEnd-2-growdev-rick-and-morty.git
 
 **Agradeço por visitar meu projeto!**
 Se você tem alguma sugestão, ou encontrou um problema ou deseja contribuir de alguma forma, aceito sujestoões.
